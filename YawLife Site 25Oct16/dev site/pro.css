@@ -1,0 +1,34 @@
+div {
+    border-radius:50%;
+    border:2px solid #FF0000;
+    position:fixed;
+}
+
+/*
+#center {
+    width: 200px;
+    height:200px;
+    left:100px;
+    top:100px;
+}
+#sat0, #sat1, #sat2, #sat3, #sat4 {
+    width:20px;
+    height:20px;
+}
+*/
+img {
+    /*border-radius:50%;
+    border:2px solid #FF0000;
+    */
+    position:fixed;
+    padding: 5em 0 5em 0;
+}
+
+svg {
+    /*border-radius:50%;
+    border:2px solid #FF0000;
+    */
+    position:relative;
+    padding: 5em 0 5em 0;
+
+}
