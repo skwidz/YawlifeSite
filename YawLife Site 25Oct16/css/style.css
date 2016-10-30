@@ -96,7 +96,7 @@
 		font-weight: 400;
 	}
 	
-	em, i
+	i
 	{
 		font-style: italic;
 	}
@@ -980,11 +980,13 @@
 		#banner p
 		{
 			margin: 0;
+			
 		}
 
 		#banner em
 		{
-			color: #262626;
+			/*color: #262626;*/
+			color: #fff;
 			font-weight: bold;
 
 		}
