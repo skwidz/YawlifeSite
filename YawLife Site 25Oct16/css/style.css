@@ -179,6 +179,19 @@
 			padding: 0 0 1.5em 0;
 		}
 		
+	table 
+	{
+		border-collapse: collapse;
+		width 100%
+	}
+
+	tr, td , th
+	{
+		padding: 3px; 
+		text-align: center;
+		border-left: 1px solid #ddd;
+	}
+
 	footer
 	{
 		margin-top: 1em;
@@ -892,7 +905,7 @@
 /************************************************/
 /* Lifecash section								*/
 /************************************************/
-	#cash
+	.lifecash
 	{
 		position: relative;
 		color: #fff;
@@ -901,11 +914,33 @@
 		background: #35b88f url('images/banner.svg') bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
+		margin-top: 9em; 
 		background-size: 125% auto;
 	}
-		#cash header
+	.lifecash:before
 		{
-			margin: 0 0 2em 0; 
+				content: '';125
+				display: block;
+				width: 90px;
+				height: 66px;
+				position: absolute;
+				left: 50%;
+				top: -4.5em;
+				margin-left: -45px;
+				margin-top: -33px;
+				background: url('images/arrow.svg') no-repeat;
+		}
+		.lifecash header
+		{
+			margin: 0 0 em 0; 
+		}
+	
+		
+
+		.lifecash footer
+		{
+			margin: 2em 0 0 0; 
+
 		}
 
 /*********************************************************************************/
