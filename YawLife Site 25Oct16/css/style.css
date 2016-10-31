@@ -846,7 +846,7 @@
 		#header header
 		{
 			display: inline-block;
-			
+			padding: 0 0 0 0;
 		}
 		
 			#header header h1
@@ -918,10 +918,10 @@
 		position: relative;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
-		text-align: center;
+		text-align: left;
 		background: #35b88f url('images/banner.svg') bottom center no-repeat;
 		padding: 5em 0 5em 0;
-		margin: 0;
+		
 		margin-top: 9em; 
 		background-size: 125% auto;
 	}
@@ -938,23 +938,30 @@
 				margin-top: -33px;
 				background: url('images/arrow.svg') no-repeat;
 		}
-		.work header
+		.works header
 		{
-			margin: 0 0 em 0; 
+			margin-left: 30%;
 		}
 	
-		.work em
+		.works p 
+		{
+			margin-left: 30%; 
+			
+		}
+
+
+		.works em
 		{
 			color: #fff;
 			font-weight: bold; 
 		}
 
-		.work footer
+		.works footer
 		{
 			margin: 2em 0 0 0; 
 
 		}
-
+	
 
 
 
@@ -966,7 +973,7 @@
 		position: relative;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
-		text-align: center;
+		text-align: left;
 		background: #35b88f url('images/banner.svg') bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
@@ -989,14 +996,24 @@
 		.lifecash header
 		{
 			margin: 0 0 em 0; 
+			margin-left: 27%;
 		}
 	
-		
+		.lifecash p
+		{
+			margin-left: 27%;
+		}
 
 		.lifecash footer
 		{
-			margin: 2em 0 0 0; 
+			margin:  0 0 0; 
 
+		}
+
+		.lifecash em 
+		{
+			color: #fff;
+			font-weight: bold;
 		}
 
 /*********************************************************************************/
