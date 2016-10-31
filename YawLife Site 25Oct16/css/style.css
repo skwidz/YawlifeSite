@@ -103,11 +103,11 @@
 	
 	img.logo{
 		vertical-align: middle;
-		padding: 0px 10px;
+		padding: 0px 30px;
 		float: left;
 		position: absolute;
-		left: 1px;
-		top: 7px;
+		left: 15px;
+		top: 9px;
 	}
 	
 
@@ -839,14 +839,14 @@
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 		text-align: center;
 		margin: 0;
-		padding: 14em 0 14em 0;
+		padding: 5em 0 7em 0;
 		cursor: default;
 	}
 	
 		#header header
 		{
 			display: inline-block;
-			padding: 0 0 4.5em 0;
+			
 		}
 		
 			#header header h1
@@ -873,13 +873,13 @@
 					content: '';
 					display: block;
 					/*border-top: solid 1px rgba(255,255,255,0.5);*/
-					margin: 2px 0 0.8em 0;
+					/*margin: 2px 0 0.8em 0;*/
 				}
 
 		#header footer
 		{
 			position: absolute;
-			bottom: 9em;
+			bottom: 0em;
 			margin: 0;
 			width: 100%;
 		}
@@ -889,12 +889,12 @@
 				content: '';
 				display: block;
 				position: absolute;
-				bottom: -9em;
+				bottom: 0em;
 				left: 50%;
-				height: 9em;
+				height: 0em;
 				border-left: solid 1px #fff;
 			}
-		
+		/*
 			#header footer:before
 			{
 				content: '';
@@ -908,7 +908,7 @@
 				margin-bottom: -33px;
 				background: url('images/arrow.svg') no-repeat;
 			}
-	
+		
 
 /**********************************************/
 /* How it works */
