@@ -103,10 +103,10 @@
 	
 	img.logo{
 		vertical-align: middle;
-		padding: 0px 30px;
+		padding: 0px 10px;
 		float: left;
 		position: absolute;
-		left: 15px;
+		left: 1px;
 		top: 7px;
 	}
 	
@@ -909,6 +909,55 @@
 				background: url('images/arrow.svg') no-repeat;
 			}
 	
+
+/**********************************************/
+/* How it works */
+/**********************************************/
+	.works
+	{
+		position: relative;
+		color: #fff;
+		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
+		text-align: center;
+		background: #35b88f url('images/banner.svg') bottom center no-repeat;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		margin-top: 9em; 
+		background-size: 125% auto;
+	}
+	.works:before
+		{
+				content: '';125
+				display: block;
+				width: 90px;
+				height: 66px;
+				position: absolute;
+				left: 50%;
+				top: -4.5em;
+				margin-left: -45px;
+				margin-top: -33px;
+				background: url('images/arrow.svg') no-repeat;
+		}
+		.work header
+		{
+			margin: 0 0 em 0; 
+		}
+	
+		.work em
+		{
+			color: #fff;
+			font-weight: bold; 
+		}
+
+		.work footer
+		{
+			margin: 2em 0 0 0; 
+
+		}
+
+
+
+
 /************************************************/
 /* Lifecash section								*/
 /************************************************/
@@ -959,7 +1008,7 @@
 		position: relative;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
-		text-align: center;
+		text-align: left;
 		background: #35b88f url('images/banner.svg') bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
@@ -975,9 +1024,10 @@
 		#banner header
 		{
 			margin: 0 0 2em 0;
+			padding-left: 13em;
 		}
 		
-			#banner header h2
+			#banner header h2p
 			{
 				font-weight: 400;
 				font-size: 1.75em;
@@ -987,6 +1037,7 @@
 		#banner p
 		{
 			margin: 0;
+			padding-left: 13em; 
 
 		}
 
@@ -1001,6 +1052,7 @@
 		#banner footer
 		{
 			margin: 2em 0 0 0;
+			text-align: center;
 		}
 		
 		#banner a
