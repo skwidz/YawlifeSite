@@ -834,7 +834,7 @@
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 		text-align: center;
 		margin: 0;
-		padding: 5em 0 7em 0;
+		padding: 3em 0 5em 0;
 		cursor: default;
 	}
 	
@@ -935,12 +935,12 @@
 		}
 		.works header
 		{
-			margin-left: 30%;
+			margin-left: 20%;
 		}
 	
 		.works p 
 		{
-			margin-left: 30%; 
+			margin-left: 20%; 
 			
 		}
 
@@ -991,12 +991,12 @@
 		.lifecash header
 		{
 			margin: 0 0 em 0; 
-			margin-left: 27%;
+			margin-left: 20%;
 		}
 	
 		.lifecash p
 		{
-			margin-left: 27%;
+			margin-left: 20%;
 		}
 
 		.lifecash footer
@@ -1036,7 +1036,7 @@
 		#banner header
 		{
 			margin: 0 0 2em 0;
-			padding-left: 27%;
+			padding-left: 20%;
 		}
 		
 			#banner header h2p
@@ -1049,7 +1049,7 @@
 		#banner p
 		{
 			margin: 0;
-			padding-left: 27%; 
+			padding-left: 20%; 
 
 		}
 
