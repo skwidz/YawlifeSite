@@ -128,7 +128,7 @@
 					.on('scroll.overflow_parallax', function() {
 
 						// Adjust background position.
-							$bg.css('background-position', 'center ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
+							//$bg.css('background-position', 'center ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
 
 					})
 					.on('resize.overflow_parallax', function() {

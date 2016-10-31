@@ -15,19 +15,14 @@
 	body
 	{
 		background-color:		#183026;
-		background-image:		url('images/overlay.png'),			url('../images/trees.jpg');
-		background-repeat:		repeat,								no-repeat;
-		background-size:		auto,								cover;
-		background-position: 	top left,							center 0;
-		background-attachment:	fixed,								fixed;
+		background-image:		url('../images/trees.jpg');
+		background-repeat:		no-repeat;
+		background-size:		cover;
+		background-position: 	center;
+		background-attachment:	fixed;
 	}
 
-		body.is-scroll
-		{
-			background-attachment:	scroll,								scroll;
-			background-size:		auto,								100% auto;
-		}
-
+		
 		body.is-loading *
 		{
 			-moz-transition: none !important;
@@ -105,7 +100,7 @@
 		vertical-align: middle;
 		padding: 0px 30px;
 		float: left;
-		position: absolute;
+		position: relative;
 		left: 15px;
 		top: 9px;
 	}
